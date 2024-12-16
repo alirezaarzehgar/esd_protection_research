@@ -1,5 +1,5 @@
 MAIN_FILE := esd.tex
-TEX_FILES := $(shell find sections/ -type f -iname '*.tex')
+TEX_FILES := $(shell find -type f -iname '*.tex')
 
 OUTPUT_DIRECTORIY := out
 PDF_FILE := ${OUTPUT_DIRECTORIY}/${MAIN_FILE:%.tex=%.pdf}
